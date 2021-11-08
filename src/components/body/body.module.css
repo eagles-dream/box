@@ -1,0 +1,5 @@
+.container {
+  height: 100vh;
+  width: calc(100% - 16rem);
+  overflow-y: auto;
+}

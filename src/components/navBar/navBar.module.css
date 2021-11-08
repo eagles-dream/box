@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  margin-left: 0;
+  height: 70px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid gray;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.img {
+  height: 2em;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-left: 0.2em;
+  padding-bottom: 0.15em;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.menu1,
+.menu2,
+.menu3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.2em;
+  padding: 0.5em 1em;
+  border: 1px solid #4f67ff;
+  border-radius: 1.2em;
+  height: 36px;
+  width: 14em;
+  cursor: pointer;
+}
+
+.menu1:hover,
+.menu2:hover,
+.menu3:hover {
+  background-color: rgba(80, 164, 250, 0.10196);
+}
+
+.menu2 {
+  width: 12.5em;
+}
+
+.menu3 {
+  width: 11em;
+}
+
+.icon1_before,
+.icon2_before,
+.icon3_before,
+.icon1_after,
+.icon2_after,
+.icon3_after {
+  width: 1.2em;
+}
+
+.text1,
+.text2,
+.text3 {
+  margin: 0 0.8em;
+}
+
+.notice {
+  height: 2em;
+  padding: 0 1.5em 0 1em;
+  cursor: pointer;
+}
+
+.login {
+  height: 2em;
+  cursor: pointer;
+}
