@@ -1,0 +1,40 @@
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 780px;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(219, 218, 218);
+}
+
+.input {
+  width: 30em;
+  height: 2.8em;
+  border-radius: 0.5em;
+  border: 1px solid gray;
+  margin-right: 0.5em;
+  padding-left: 1em;
+}
+
+.button {
+  height: 2.8em;
+  border-radius: 0.5em;
+  border: 1px solid gray;
+  margin-right: 2em;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(71, 70, 70);
+  color: #fff;
+}
+
+.checkbox {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.8em;
+}
+
+.text {
+  font-size: 14px;
+}
