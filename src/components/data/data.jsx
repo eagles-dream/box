@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     icon: "fas fa-box",
@@ -60,3 +60,5 @@ export default [
     title: '결제 및 설정'
   },
 ]
+
+export default data;
