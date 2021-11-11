@@ -11,17 +11,17 @@ function NavBar() {
       </div>
       <div className={styles.menu}>
         <span className={styles.menu1}>
-          <i className="far fa-flag"></i>
+          <span className={styles.flag}><i className="far fa-flag"></i></span>
           <span className={styles.text1}>팀 세팅 도우미</span>
-          <i className="fas fa-times"></i>
+          <span className={styles.times}><i className="fas fa-times"></i></span>
         </span>
         <span className={styles.menu2}>
-          <i className="fas fa-exclamation"></i>
+          <span className={styles.exclamation}><i className="fas fa-exclamation"></i></span>          
           <span className={styles.text2}>무료 체험중</span>
-          <i className="fas fa-chevron-right"></i>
+          <span className={styles.right}><i className="fas fa-chevron-right"></i></span>
         </span>
         <span className={styles.menu3}>
-          <i className="far fa-question-circle"></i>
+          <span className={styles.circle}><i className="far fa-question-circle"></i></span>
           <span className={styles.text3}>고객센터</span>
         </span>
         <span className={styles.notice}>

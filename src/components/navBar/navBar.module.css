@@ -22,10 +22,6 @@
   font-size: 2.2em;
 }
 
-.img {
-  height: 2em;
-}
-
 .title {
   font-size: 1.5em;
   margin-left: 0.2em;
@@ -59,6 +55,26 @@
   background-color: rgba(80, 164, 250, 0.10196);
 }
 
+.flag {
+  color: green;
+}
+
+.times {
+  color: gray;
+}
+
+.exclamation {
+  color: red;
+}
+
+.right {
+  color: gray;
+}
+
+.circle {
+  color: blue;
+}
+
 .menu2 {
   width: 12.5em;
 }
@@ -66,15 +82,6 @@
 .menu3 {
   width: 8em;
   padding-right: 0.2em;
-}
-
-.icon1_before,
-.icon2_before,
-.icon3_before,
-.icon1_after,
-.icon2_after,
-.icon3_after {
-  width: 1.2em;
 }
 
 .text1,
