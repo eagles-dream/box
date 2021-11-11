@@ -24,12 +24,8 @@ function NavBar() {
           <span className={styles.circle}><i className="far fa-question-circle"></i></span>
           <span className={styles.text3}>고객센터</span>
         </span>
-        <span className={styles.notice}>
-          <i className="fas fa-bell"></i>
-        </span>
-        <span className={styles.user}>
-          <i className="fas fa-user"></i>
-        </span>
+        <span className={styles.notice}><i className="fas fa-bell"></i></span>
+        <span className={styles.user}><i className="fas fa-user"></i></span>
       </div>
     </div>
   )

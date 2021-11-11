@@ -12,7 +12,7 @@ function Title() {
           <i className="fas fa-chevron-right"></i>
         </span>
         <span className={styles.title_menu2}>
-          <i class="fas fa-database"></i>
+          <i className="fas fa-database"></i>
           <span className={styles.title_menu2_text}>데이터 관리</span>
         </span>
       </div>
