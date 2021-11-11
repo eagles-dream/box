@@ -13,7 +13,7 @@ const LeftMenu = () => {
       <span className={styles.user} onClick={onClick}>
         <span className={open ? styles.name : styles.name_close}>User</span>
         <button className={open ? styles.button : styles.button_close}>
-          <i class="fas fa-bars"></i>
+        <i class="fas fa-angle-double-left"></i>
         </button>
       </span>
       <ul className={styles.ul}>
