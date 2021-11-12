@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './default.module.css'
+import styles from './errorPage.module.css'
 
-const Default = () => {
+const ErrorPage = () => {
   return(
     <div className={styles.container}>
       <span>잘못된 페이지로 접근하셨습니다.</span>
@@ -10,4 +10,4 @@ const Default = () => {
   )
 }
 
-export default Default;
+export default ErrorPage;

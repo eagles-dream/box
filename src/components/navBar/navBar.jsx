@@ -1,15 +1,18 @@
 import React from 'react';
 import styles from './navBar.module.css'
+import { NavLink } from 'react-router-dom'
 
 function NavBar() {
   return(
     <div className={styles.container}>
-      <div className={styles.logo}>
-        <span className={styles.logo_font}>
-          <i className="fab fa-dropbox"></i>
-        </span>
-        <span className={styles.title}>BOX</span>
-      </div>
+      <NavLink className={styles.link} to="/">
+        <div className={styles.logo}>
+          <span className={styles.logo_font}>
+            <i className="fab fa-dropbox"></i>
+          </span>
+          <span className={styles.title}>BOX</span>
+        </div>
+      </NavLink>
       <div className={styles.menu}>
         <span className={styles.menu1}>
           <span className={styles.flag}><i className="far fa-flag"></i></span>

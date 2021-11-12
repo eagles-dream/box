@@ -1,11 +1,10 @@
 import styles from './leftMenu.module.css'
 import data from '../data/data'
 import React, { useState } from 'react';
-import { useHistory } from 'react-router';
+import { NavLink } from 'react-router-dom'
 
 const LeftMenu = () => {
   const [open, setOpen] = useState(true)
-  const history = useHistory()
   const onClick = () => {
     setOpen((open)=>{return !open})
   }
@@ -21,14 +20,13 @@ const LeftMenu = () => {
       <ul className={styles.ul}>
         {
         data.map((data)=>{
-          const link = () => {
-            history.push(`/${data.id}`)
-          }
           return(
-            <span className={styles.menu} key={data.index} onClick={link}>
-              <span  className={styles.icon}><i className={data.icon}></i></span>
-              <li className={styles.li}>{data.title}</li>
-            </span>
+            <NavLink className={styles.link} activeClassName={styles.active} to={`/${data.id}`} key={data.index}>
+              <span className={styles.menu} key={data.index}>
+                <span  className={styles.icon}><i className={data.icon}></i></span>
+                <li className={styles.li}>{data.title}</li>
+              </span>
+            </NavLink>
           )
         })
         }        

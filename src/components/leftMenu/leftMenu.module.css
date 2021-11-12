@@ -68,6 +68,14 @@
   overflow-y: auto;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.active span {
+  color: #4f67ff;
+}
+
 .menu {
   display: flex;
   align-items: center;

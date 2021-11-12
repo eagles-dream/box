@@ -12,11 +12,16 @@
   height: 70px;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
   margin: 0;
   color: #4f67ff;
+  cursor: pointer;
 }
 
 .logo_font {
