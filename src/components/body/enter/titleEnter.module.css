@@ -1,0 +1,33 @@
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 780px;
+  padding-top: 40px;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #4d5ecd;
+  justify-content: space-between;
+}
+
+.title_text {
+  width: 15rem;
+  font-size: 1.5rem;
+  color: #4d5ecd;
+}
+
+.title_menu {
+  display: flex;
+  align-items: center;
+  width: calc(100%-15rem);
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  color: gray;
+  margin-left: 1em;
+  border: 1px solid rgb(128, 122, 122);
+  padding: 0.6em 1.2em 0.7em 1.2em;
+}
+
+.title_menu:hover {
+  background-color: #dddddf;
+}

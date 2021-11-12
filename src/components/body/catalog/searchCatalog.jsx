@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './search.module.css'
+import styles from './searchCatalog.module.css'
 
-const Search = () => {
+const SearchCatalog = () => {
   return(
     <div className={styles.search}>
       <input className={styles.input} type="text" placeholder="Search..." />
@@ -12,4 +12,4 @@ const Search = () => {
   )
 };
 
-export default Search;
+export default SearchCatalog;

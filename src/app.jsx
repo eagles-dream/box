@@ -1,5 +1,7 @@
 import styles from './app.module.css'
-import Body from './components/body/body';
+import Catalog from './components/body/catalog/catalog';
+import Enter from './components/body/enter/enter'
+import Out from './components/body/out/out';
 import LeftMenu from './components/leftMenu/leftMenu';
 import NavBar from './components/navBar/navBar';
 
@@ -9,7 +11,9 @@ function App() {
       <NavBar />
       <div className={styles.container}>
         <LeftMenu />
-        <Body />
+        <Catalog />
+        <Enter />
+        <Out />
       </div>
     </div>
   );

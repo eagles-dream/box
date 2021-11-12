@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './title.module.css'
+import styles from './titleCatalog.module.css'
 
-function Title() {
+function TitleCatalog() {
   return(
     <div className={styles.title}>
       <div className={styles.title_text}>제품목록</div>
@@ -20,4 +20,4 @@ function Title() {
   )
 }
 
-export default Title;
+export default TitleCatalog;
