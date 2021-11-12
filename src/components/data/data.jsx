@@ -51,7 +51,7 @@ const data = [
   },
   {
     id: 11,
-    icon: "fas fa-scroll",
+    icon: "fas fa-print",
     title: '라벨인쇄'
   },
   {

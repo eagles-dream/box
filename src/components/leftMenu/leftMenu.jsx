@@ -13,7 +13,7 @@ const LeftMenu = () => {
       <span className={styles.user} onClick={onClick}>
         <span className={open ? styles.name : styles.name_close}>User</span>
         <button className={open ? styles.button : styles.button_close}>
-        <i class="fas fa-angle-double-left"></i>
+        <i className="fas fa-angle-double-left"></i>
         </button>
       </span>
       <ul className={styles.ul}>
@@ -22,7 +22,7 @@ const LeftMenu = () => {
           return(
             <span className={styles.menu} key={data.id}>
               <span  className={styles.icon}><i className={data.icon}></i></span>
-              <li className={open ? styles.li : styles.li_close}>{data.title}</li>
+              <li className={styles.li}>{data.title}</li>
             </span>
           )
         })

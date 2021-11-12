@@ -7,7 +7,7 @@ function NavBar() {
         <span className={styles.logo_font}>
           <i className="fab fa-dropbox"></i>
         </span>
-        <span className={styles.title}>BOXhero</span>
+        <span className={styles.title}>BOX</span>
       </div>
       <div className={styles.menu}>
         <span className={styles.menu1}>
