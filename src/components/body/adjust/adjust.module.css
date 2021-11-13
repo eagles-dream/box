@@ -1,0 +1,11 @@
+.container {
+  border-left: 1px solid gray;
+  background-color: white;
+  height: 90vh;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}

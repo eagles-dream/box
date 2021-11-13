@@ -19,55 +19,55 @@ const data = [
   },
   {
     index: 4,
-    id: 'catalog',
+    id: 'adjust',
     icon: "fas fa-exchange-alt",
     title: '조정'
   },
   {
     index: 5,
-    id: 'enter',
+    id: 'purchase',
     icon: "far fa-file-alt",
     title: '구매 및 판매'
   },
   {
     index: 6,
-    id: 'out',
+    id: 'history',
     icon: "fas fa-history",
     title: '히스토리'
   }, 
   {
     index: 7,
-    id: 'catalog',
+    id: 'board',
     icon: "far fa-chart-bar",
     title: '대시보드'
   },
   {
     index: 8,
-    id: 'enter',
+    id: 'stock',
     icon: "far fa-eye",
     title: '재고분석'
   },
   {
     index: 9,
-    id: 'out',
+    id: 'plus',
     icon: "fas fa-plus-circle",
     title: '추가기능'
   },
   {
     index: 10,
-    id: 'catalog',
+    id: 'data',
     icon: "fas fa-database",
     title: '데이터 관리'
   },
   {
     index: 11,
-    id: 'enter',
+    id: 'label',
     icon: "fas fa-print",
     title: '라벨인쇄'
   },
   {
     index: 12,
-    id: 'out',
+    id: 'setting',
     icon: "fas fa-cogs",
     title: '결제 및 설정'
   }
