@@ -1,6 +1,7 @@
 .offcanvas {
   position: fixed;
   top: 70px;
+  box-shadow: 0 1px 3px rgb(204, 204, 204);
 }
 
 .backdrop {
