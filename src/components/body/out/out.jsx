@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './out.module.css'
 import TitleOut from './titleOut';
 
-const Out = () => {
+const Out = ({handleShowDefault}) => {
   return(
     <div className={styles.container}>
-      <TitleOut />
+      <TitleOut handleShowDefault={handleShowDefault} />
     </div>    
   )
 }

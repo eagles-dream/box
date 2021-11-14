@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './enter.module.css'
 import TitleEnter from './titleEnter';
 
-const Enter = () => {
+const Enter = ({handleShowDefault}) => {
   return(
     <div className={styles.container}>
-      <TitleEnter />
+      <TitleEnter handleShowDefault={handleShowDefault} />
     </div>    
   )
 }

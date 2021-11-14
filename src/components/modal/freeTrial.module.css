@@ -1,0 +1,20 @@
+.header_title {
+  font-size: 1.2rem;
+}
+
+.body {
+  height: 10rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_title {
+  font-size: 1rem;
+}
+
+.footer_button {
+  font-size: 1rem;
+}

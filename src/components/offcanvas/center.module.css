@@ -1,0 +1,17 @@
+.offcanvas {
+  position: fixed;
+  top: 70px;
+}
+
+.backdrop {
+  background: none;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.body {
+  font-size: 1rem;
+}

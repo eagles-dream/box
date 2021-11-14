@@ -5,7 +5,7 @@ import styles from './teamSettingHelper.module.css'
 
 const TeamSettingHelper = ({show, handleClose}) => {
   return(
-    <Modal size='lg' show={show} onHide={handleClose}>
+    <Modal size='md' show={show} onHide={handleClose}>
       <Modal.Header closeButton>
         <Modal.Title className={styles.header_title}>팀 세팅 도우미</Modal.Title>
       </Modal.Header>

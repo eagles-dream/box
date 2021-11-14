@@ -4,12 +4,12 @@ import TitleCatalog from './titleCatalog';
 import SearchCatalog from './searchCatalog';
 import ContentCatalog from './contentCatalog';
 
-const Catalog = () => {
+const Catalog = ({handleShowDefault}) => {
   return(
     <div className={styles.container}>
-      <TitleCatalog />
+      <TitleCatalog handleShowDefault={handleShowDefault} />
       <SearchCatalog />
-      <ContentCatalog />
+      <ContentCatalog handleShowDefault={handleShowDefault} />
     </div>    
   )
 }
