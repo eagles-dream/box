@@ -48,6 +48,9 @@ function App() {
           <Route exact path='/'>
             <Catalog handleShowDefault={handleShowDefault} />
           </Route>
+          <Route path='/box'>
+            <Catalog handleShowDefault={handleShowDefault} />
+          </Route>
           <Route path='/catalog'>
             <Catalog handleShowDefault={handleShowDefault} />
           </Route>
